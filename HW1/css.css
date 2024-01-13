@@ -1,17 +1,42 @@
 body{
     margin: 0px;
 }
-.menue{
-    background-color: rgb(21, 19, 127);
-    height: 70px;
+a {
+    text-decoration: none;
 }
-.paragraph{
+.menue{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: rgb(12, 70, 47);
+}
+.mainhead{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.menuepunkt{
     display: inline-block;
     padding: 13px;
     color:antiquewhite;
     font-size: 25px;
     position: relative;
     top: 5px;
+}
+.paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+.mainparagraph{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }
 table{
     border: 2px solid blue;
