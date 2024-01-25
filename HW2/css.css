@@ -45,6 +45,7 @@
     gap: 14px;
 }
 .menu_tab{
+    white-space: nowrap;
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -58,6 +59,7 @@
     line-height: normal;
 }
 .menu_tab_text1{
+    text-decoration: none;
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -68,6 +70,7 @@
     font-weight: 600;
 }
 .menu_tab_text{
+    text-decoration: none;
     display: flex;
     padding: 10px;
     justify-content: center;
