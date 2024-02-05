@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    min-width: 1600px;
+    height: 75px;
+    background: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 111px;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 0px 40px;
+}
+.button_copy{
+    width: 159px;
+    height: 29px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 0px 0px;
+}
+.header_logo{
+    width: 44px;
+    height: 38px;
+}
+.forma1{
+    width: 26px;
+    height: 26px;
+}
+.title_image{
+    width: 1600px;
+    height: 764px;
+    background: #F1E4E6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.brand_title{
+    width: 405px;
+    height: auto;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+}
+.rectangle{
+    width: 12px;
+    height: auto;
+    background: #F16D7F;
+}
+.the_brand{
+    font-size: 48px;
+    font-family: Lato;
+    font-weight: 900;
+    word-wrap: break-word;
+    color: #222222;
+}
+.of_luxerious{
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: #222222;
+}
+.offer_main{
+   max-width: 1140px;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;   
+}
+.offer{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.offer_items1{
+    width: 360px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/Rectangle_20_3_3.jpg);
+    align-items: center;
+}
+.offer_items2{
+    width: 360px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/Rectangle\ 20_2_3.jpg);
+    align-items: center;
+}
+.offer_items3{
+    width: 360px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/Rectangle\ 20_1_3.jpg);
+    align-items: center;
+}
+.offer_items4{
+    width: 1140px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/Rectangle\ 20_3.jpg);
+    align-items: center;
+}
+.sale{
+    display: flex;
+    flex-direction: column;
+}
+.offer_type{
+    text-align: center;
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.for_who{
+    color:#F16D7F;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.centered_text{
+    position: absolute;
+    top: 50%;
+    
+}
+.products{
+    max-width: 1140px;
+    height: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 40px 0px;
+}
+.products_top_head{
+    color:#222222;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.products_top_main_text{
+    color: #9F9F9F;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.products_list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product{
+    width: 360px;
+    height: 587px;
+    display: flex;
+    flex-direction: column;
+}
+.product_picture{
+    width: 360px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    background-color: #F7E4E2;
+}
+.title_and_price{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 10px 10px;
+    background-color: #F8F8F8;
+}
+.product_title{
+    font-size: 13px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 0px 0px 5px 0px;
+}
+.product_text{
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 300;
+    word-wrap: break-word;
+    padding: 0px 0px 5px 0px;
+}
+.product_price{
+    color: #F16D7F;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.browse_button{
+    width: 212px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    width: 212px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #F26376;
+    align-self: stretch;
+}
+.btn_text{
+    color: #F26376;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+}
