@@ -34,7 +34,15 @@
     width: 44px;
     height: 38px;
 }
-.forma1{
+.forma1_1{
+    width: 26px;
+    height: 26px;
+}
+.forma1_2{
+    width: 26px;
+    height: 26px;
+}
+.forma1_3{
     width: 26px;
     height: 26px;
 }
@@ -352,6 +360,121 @@
      }
      .products{
         max-width: 736px;
+        height: auto;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:375px){
+    .header{
+        min-width: 375px;
+        height: 75px;
+        background: #222222;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        width: 111px;
+        height: 38px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 0px 0px 20px;
+    }
+    .button_copy{
+        width: 159px;
+        height: 29px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 0px 20px 0px 0px;
+    }
+    .forma1_2{
+        display: none;
+    }
+    .forma1_3{
+        display: none;
+    }
+    .title_image{
+        width: 375px;
+        height: 363px;
+        background: #F1E4E6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .man_title{
+        display: none;
+    }
+    .brand_title{
+        width: 263px;
+        height: auto;
+        display: flex;
+        gap: 16px;
+        justify-content: flex-start;
+    }
+    .the_brand{
+        font-size: 38px;
+        font-family: Lato;
+        font-weight: 900;
+        word-wrap: break-word;
+        color: #222222;
+    }
+    .of_luxerious{
+        font-size: 20px;
+        font-family: Lato;
+        font-weight: 700;
+        word-wrap: break-word;
+        color: #222222;
+    }
+    .offer_main{
+        max-width: 343px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 35px 0px 35px 0px;
+    }
+    .offer_items1{
+        width: 343px;
+        height: 247px;
+        display: flex;
+        justify-content: center;
+        background-image: url(./img/Rectangle_20_3_3.jpg);
+        background-size: cover;
+        align-items: center;
+    }
+    .offer_items2{
+        width: 343px;
+        height: 247px;
+        display: flex;
+        justify-content: center;
+        background-image: url(./img/Rectangle\ 20_2_3.jpg);
+        background-size: cover;
+        align-items: center;
+    }
+    .offer_items3{
+        width: 343px;
+        height: 247px;
+        display: flex;
+        justify-content: center;
+        background-image: url(./img/Rectangle\ 20_1_3.jpg);
+        background-size: cover;
+        align-items: center;
+    }
+    .offer_items4{
+        width: 343px;
+        height: 111px;
+        display: flex;
+        justify-content: center;
+        background-image: url(./img/Rectangle\ 20_3.jpg);
+        background-size: cover;
+        align-items: center;
+    }
+    .products{
+        max-width: 359px;
         height: auto;
         display: inline-flex;
         flex-direction: column;
