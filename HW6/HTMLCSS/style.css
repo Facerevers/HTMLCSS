@@ -21,14 +21,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 200px;
 }
 .button_copy{
     width: 159px;
     height: 29px;
     display: flex;
     justify-content: space-between;
-    margin: 0px 40px 0px 0px;
+    margin: 0px 200px 0px 0px;
 }
 .header_logo{
     width: 44px;
@@ -155,6 +155,7 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 0px 60px 0px;
 }
 .products_top{
     display: flex;
@@ -235,6 +236,7 @@
     align-items: center;
     border: 1.5px solid #F26376;
     align-self: stretch;
+    transition: background-color 1s;
 }
 .btn_text{
     color: #F26376;
@@ -242,6 +244,224 @@
     font-family: Lato;
     font-weight: 400;
     word-wrap: break-word;
+    transition: color 1s;
+}
+.features{
+    width: 1600px;
+    height: 341px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background: #222224;
+}
+.feat_block{
+    width: 1140px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 70px 0px 0px 0px;
+}
+.feature{
+    width: 360px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.feature_pict{
+    width: 50px;
+    height: 32px;
+}
+.feature_top_text{
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #FBFBFB;
+    padding: 10px;
+}
+.feature_main_text{
+    text-align: center;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #FBFBFB;
+}
+.subscribe{
+    width: 1600px;
+    height: 448px;
+    background-image: url(./img/Layer\ 41_2.png);
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.subscribe_info{
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.face{
+    width: 96px;
+    height: 96px;
+
+}
+.face_text{
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+.subscribe_form{
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subscribe_form_title{
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+.subscribe_form_main_text{
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+.enter_your_mail{
+    width: 356px;
+    height: 49px;
+    display: flex;
+    padding: 5px 0px 0px 100.5px;
+}
+.left_part{
+    width: 256px;
+    height: 49px;
+    background-image: url(./img/Rounded\ Rectangle\ 5.png);
+    display: flex;
+    align-items: center;
+}
+.right_part{
+    width: 100px;
+    height: 49px;
+    background-image: url(./img/Rounded\ Rectangle\ 5\ copy.png);
+    display: flex;
+    align-items: center;
+}
+.email{
+    width: 170px;
+    height: 14px;
+    opacity: 0.67;
+    color: #222224;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 0px 0px 5px 25px;
+}
+.rp_text{
+    width: 85px;
+    height: 14px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 0px 0px 5px 0px;
+}
+.floor{
+    min-width: 1600px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    background-color: #222224;
+    align-items: center;
+}
+.signs{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #FBFBFB;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.social_icons{
+    width: 148px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    background-image: url(./img/Rectangle\ 14.svg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer_type:hover{
+    color: orange;
+}
+.offer_items1:hover{
+    outline: 2px solid #ba3e14;
+    outline-offset: -10px;
+}
+.offer_items2:hover{
+    outline: 2px solid #ba3e14;
+    outline-offset: -10px;
+}
+.offer_items3:hover{
+    outline: 2px solid #ba3e14;
+    outline-offset: -10px;
+}
+.offer_items4:hover{
+    outline: 2px solid #ba3e14;
+    outline-offset: -10px;
+}
+.product_picture:hover{
+    outline: 2px dashed #e8cec5;
+    outline-offset: -10px;
+}
+.i_icon:hover path{
+    fill:red;
+}
+.forma1:hover path{
+    fill: red;
+}
+.forma1_1:hover path{
+    fill: red;
+}
+.forma1_2:hover path{
+    fill: red;
+}
+.forma1_3:hover path{
+    fill: red;
+}
+.btn:hover{
+    background-color: red;
+}
+.btn_text:hover{
+    color: black;
+}
+.feature_pict:hover path{
+    fill: orange;
 }
 @media(max-width:768px){
     .header{
@@ -364,6 +584,60 @@
         display: inline-flex;
         flex-direction: column;
         align-items: center;
+        padding: 0px 0px 60px 0px;
+    }
+    .features{
+        width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        background: #222224;
+    }
+    .feat_block{
+        width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .subscribe{
+        width: 768px;
+        height: auto;
+        background-image: url(./img/photo\ subscribe.svg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe_info{
+        width: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0px 80px 0px;
+    }
+    .subscribe_form{
+        width: 557px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 160px 0px;
+    }
+    .floor{
+        min-width: 768px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        background-color: #222224;
+        align-items: center;
+    }
+    .signs{
+        width: 708px;
+        display: flex;
+        justify-content: space-between;
     }
 }
 @media(max-width:375px){
@@ -479,5 +753,76 @@
         display: inline-flex;
         flex-direction: column;
         align-items: center;
+        padding: 0px 0px 60px 0px;
+    }
+    .features{
+        width: 375px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background: #222224;
+    }
+    .feat_block{
+        width: 375px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+    .subscribe{
+        width: 375px;
+        height: auto;
+        background-image: url(./img/photo\ subscribe.svg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe_info{
+        width: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0px 80px 0px;
+    }
+    .subscribe_form{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 160px 0px;
+    }
+    .enter_your_mail{
+        width: 356px;
+        height: 49px;
+        display: flex;
+        padding: 5px 0px 0px 9.5px;
+    }
+    .floor{
+        min-width: 375px;
+        height: 143px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #222224;
+        align-items: center;
+    }
+    .signs{
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 15px 0px 0px 0px;
+    }
+    .copyright{
+        color: #FBFBFB;
+        font-size: 16px;
+        font-family: Lato;
+        font-weight: 400;
+        word-wrap: break-word;
+        padding: 0px 0px 15px 0px;
     }
 }
