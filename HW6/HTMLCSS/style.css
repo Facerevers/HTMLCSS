@@ -195,6 +195,29 @@
     justify-content: center;
     background-color: #F7E4E2;
 }
+.add_to_cart_button{
+    width: 139px;
+    height: 44px;
+    justify-content: center;
+    display: none;
+}
+.atcbtn{
+    display: none;
+    width: 139px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #F26376;
+    align-self: stretch;
+}
+.atcbtn_text{
+    color: white;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    text-wrap: nowrap;
+    word-wrap: break-word;
+}
 .title_and_price{
     display: flex;
     flex-direction: column;
@@ -435,9 +458,27 @@
     outline: 2px solid #ba3e14;
     outline-offset: -10px;
 }
-.product_picture:hover{
-    outline: 2px dashed #e8cec5;
-    outline-offset: -10px;
+.product_picture:hover img{
+    display: block;
+    position: relative;
+    filter:brightness(50%);
+}
+.product_picture:hover .add_to_cart_button{
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.product_picture:hover .atc_btn{
+    position: absolute;
+    display: flex;
+    width: 139px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #FFFFFF;
+    align-self: stretch;
+    justify-content: space-around;
 }
 .i_icon:hover path{
     fill:red;
